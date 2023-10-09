@@ -1,0 +1,15 @@
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\bin\Debug\net7.0\02_AsyncAwait.exe
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\bin\Debug\net7.0\02_AsyncAwait.deps.json
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\bin\Debug\net7.0\02_AsyncAwait.runtimeconfig.json
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\bin\Debug\net7.0\02_AsyncAwait.dll
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\bin\Debug\net7.0\02_AsyncAwait.pdb
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.AssemblyInfo.cs
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.dll
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\refint\02_AsyncAwait.dll
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.pdb
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\02_AsyncAwait.genruntimeconfig.cache
+C:\Skola\C-Sharp\Lektion-9\02_AsyncAwait\obj\Debug\net7.0\ref\02_AsyncAwait.dll

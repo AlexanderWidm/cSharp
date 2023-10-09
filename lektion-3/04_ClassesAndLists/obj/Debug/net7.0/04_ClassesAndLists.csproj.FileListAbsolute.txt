@@ -1,0 +1,15 @@
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\bin\Debug\net7.0\04_ClassesAndLists.exe
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\bin\Debug\net7.0\04_ClassesAndLists.deps.json
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\bin\Debug\net7.0\04_ClassesAndLists.runtimeconfig.json
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\bin\Debug\net7.0\04_ClassesAndLists.dll
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\bin\Debug\net7.0\04_ClassesAndLists.pdb
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.AssemblyInfo.cs
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.dll
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\refint\04_ClassesAndLists.dll
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.pdb
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\04_ClassesAndLists.genruntimeconfig.cache
+C:\Skola\C-Sharp\lektion-3\04_ClassesAndLists\obj\Debug\net7.0\ref\04_ClassesAndLists.dll

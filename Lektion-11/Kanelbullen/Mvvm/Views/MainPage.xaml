@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:Kanelbullen.Mvvm.ViewModels"
+             x:DataType="viewmodels:MainViewModel"
+             x:Class="Kanelbullen.MainPage"
+             Shell.NavBarIsVisible="False">
+    <Grid RowDefinitions="*, auto">
+        <CollectionView Grid.Row="0" ItemsSource="{Binding Members}">
+            <CollectionView>
+                <DataTemplate x:DataType="{x:Type models:MemberModel}">
+            </DataTemplate>
+            </CollectionView>
+
+        </CollectionView>
+        
+        <Button Grid.Row="1" Text="Skapa Nytt" Command="{Binding GoToEditCommand}" />
+
+
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\bin\Debug\net7.0\02_TodoList.exe
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\bin\Debug\net7.0\02_TodoList.deps.json
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\bin\Debug\net7.0\02_TodoList.runtimeconfig.json
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\bin\Debug\net7.0\02_TodoList.dll
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\bin\Debug\net7.0\02_TodoList.pdb
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.AssemblyInfo.cs
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.dll
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\refint\02_TodoList.dll
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.pdb
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\02_TodoList.genruntimeconfig.cache
+C:\Skola\C-Sharp\Lektion-6\02_TodoList\obj\Debug\net7.0\ref\02_TodoList.dll

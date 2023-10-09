@@ -1,0 +1,1 @@
+C:\Skola\C-Sharp\Lektion-10\TodoList\TodoListApp\TodoListApp.csproj;x64

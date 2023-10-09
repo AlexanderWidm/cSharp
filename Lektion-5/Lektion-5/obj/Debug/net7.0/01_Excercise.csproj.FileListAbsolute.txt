@@ -1,0 +1,15 @@
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\bin\Debug\net7.0\01_Excercise.exe
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\bin\Debug\net7.0\01_Excercise.deps.json
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\bin\Debug\net7.0\01_Excercise.runtimeconfig.json
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\bin\Debug\net7.0\01_Excercise.dll
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\bin\Debug\net7.0\01_Excercise.pdb
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.AssemblyInfo.cs
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.dll
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\refint\01_Excercise.dll
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.pdb
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\01_Excercise.genruntimeconfig.cache
+C:\Skola\C-Sharp\Lektion-5\Lektion-5\obj\Debug\net7.0\ref\01_Excercise.dll

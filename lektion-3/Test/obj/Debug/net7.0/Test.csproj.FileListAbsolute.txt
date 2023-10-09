@@ -1,0 +1,15 @@
+C:\Skola\C-Sharp\lektion-3\Test\bin\Debug\net7.0\Test.exe
+C:\Skola\C-Sharp\lektion-3\Test\bin\Debug\net7.0\Test.deps.json
+C:\Skola\C-Sharp\lektion-3\Test\bin\Debug\net7.0\Test.runtimeconfig.json
+C:\Skola\C-Sharp\lektion-3\Test\bin\Debug\net7.0\Test.dll
+C:\Skola\C-Sharp\lektion-3\Test\bin\Debug\net7.0\Test.pdb
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.AssemblyInfo.cs
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.dll
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\refint\Test.dll
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.pdb
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\Test.genruntimeconfig.cache
+C:\Skola\C-Sharp\lektion-3\Test\obj\Debug\net7.0\ref\Test.dll

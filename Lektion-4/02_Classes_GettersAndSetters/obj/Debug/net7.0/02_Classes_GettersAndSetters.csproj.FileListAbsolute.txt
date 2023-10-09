@@ -1,0 +1,15 @@
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\bin\Debug\net7.0\02_Classes_GettersAndSetters.exe
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\bin\Debug\net7.0\02_Classes_GettersAndSetters.deps.json
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\bin\Debug\net7.0\02_Classes_GettersAndSetters.runtimeconfig.json
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\bin\Debug\net7.0\02_Classes_GettersAndSetters.dll
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\bin\Debug\net7.0\02_Classes_GettersAndSetters.pdb
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.AssemblyInfo.cs
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.dll
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\refint\02_Classes_GettersAndSetters.dll
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.pdb
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\02_Classes_GettersAndSetters.genruntimeconfig.cache
+C:\Skola\C-Sharp\Lektion-4\02_Classes_GettersAndSetters\obj\Debug\net7.0\ref\02_Classes_GettersAndSetters.dll
