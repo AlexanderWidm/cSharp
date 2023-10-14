@@ -110,13 +110,12 @@ public class MenuService
     {
         try
         {
-            Console.WriteLine("\r\n _   __            _        _    _            \r\n| | / /           | |      | |  | |           \r\n| |/ /  ___  _ __ | |_ __ _| | _| |_ ___ _ __ \r\n|    \\ / _ \\| '_ \\| __/ _` | |/ / __/ _ \\ '__|\r\n| |\\  \\ (_) | | | | || (_| |   <| ||  __/ |   \r\n\\_| \\_/\\___/|_| |_|\\__\\__,_|_|\\_\\\\__\\___|_|   \r\n                                              \r\n                                              \r\n");
-
+            Console.WriteLine("Visa alla kontakter.");
             var contacts = contactService.GetAllContacts();
             foreach (var contact in contacts)
             {
                 Console.WriteLine($"Namn: {contact.FullName}");
-                Console.WriteLine($" Email: <{contact.Email}>");
+                Console.WriteLine($"Email: <{contact.Email}>");
                 Console.WriteLine($"Telefonnummer: {contact.Phone}");
                 Console.WriteLine($"Adress: {contact.Address?.FullAddress}");
             }
@@ -131,7 +130,7 @@ public class MenuService
         try
         {
 
-            Console.WriteLine("");
+            Console.WriteLine("Hitta en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för att hitta kontakt.");
 
             Console.Write("E-postadress: "); // search by email
@@ -160,7 +159,7 @@ public class MenuService
     {
         try
         {
-            Console.WriteLine("");
+            Console.WriteLine("Ta bort en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för ta bort kontakt.");
 
             Console.Write("E-postadress: "); // search by email
@@ -188,7 +187,7 @@ public class MenuService
     {
         try
         {
-            Console.WriteLine("");
+            Console.WriteLine("Ändra en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för att ändra kontakt.");
 
             Console.Write("E-postadress: "); // Search by email
