@@ -3,7 +3,7 @@
 public interface IContactService
 {
     void AddContact(IContact contact);
-    IEnumerable<IContact> GetContacts();
+    IEnumerable<IContact> GetAllContacts();
     IContact GetOneContact(string email);
-    void RemoveOneCustomer(string email);
+    void RemoveOneContact(string email);
 }

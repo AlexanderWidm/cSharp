@@ -7,4 +7,5 @@ public interface IContact
     string? FirstName { get; set; }
     string? LastName { get; set; }
     string? FullName { get; }
+    string? Phone { get; set; }
 }

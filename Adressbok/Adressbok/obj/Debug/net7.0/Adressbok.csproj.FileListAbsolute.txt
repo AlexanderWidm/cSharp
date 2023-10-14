@@ -1,0 +1,17 @@
+C:\Skola\C-Sharp\Adressbok\Adressbok\bin\Debug\net7.0\Adressbok.exe
+C:\Skola\C-Sharp\Adressbok\Adressbok\bin\Debug\net7.0\Adressbok.deps.json
+C:\Skola\C-Sharp\Adressbok\Adressbok\bin\Debug\net7.0\Adressbok.runtimeconfig.json
+C:\Skola\C-Sharp\Adressbok\Adressbok\bin\Debug\net7.0\Adressbok.dll
+C:\Skola\C-Sharp\Adressbok\Adressbok\bin\Debug\net7.0\Adressbok.pdb
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.csproj.AssemblyReference.cache
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.AssemblyInfoInputs.cache
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.AssemblyInfo.cs
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.csproj.CoreCompileInputs.cache
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.dll
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\refint\Adressbok.dll
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.pdb
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.genruntimeconfig.cache
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\ref\Adressbok.dll
+C:\Skola\C-Sharp\Adressbok\Adressbok\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Skola\C-Sharp\Adressbok\Adressbok\obj\Debug\net7.0\Adressbok.csproj.CopyComplete

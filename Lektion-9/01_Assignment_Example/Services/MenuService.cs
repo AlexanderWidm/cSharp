@@ -7,51 +7,51 @@ public class MenuService
 {
     private static readonly ICustomerService customerService = new CustomerService();
 
-    public static void MainMenu()
-    {
-        do
+        public static void MainMenu()
         {
-            Console.Clear();
-            Console.WriteLine("1.  Skapa en ny kund");
-            Console.WriteLine("2.  Visa alla kunder");
-            Console.WriteLine("3.  Visa en kund");
-            Console.WriteLine("4.  Ta bort en kund");
-            Console.WriteLine("0.  Avsluta");
-            Console.Write("Välj något av alternativen: ");
-            var option = Console.ReadLine();
-
-            Console.Clear();
-
-            switch (option)
+            do
             {
-                case "1":
-                    AddCustomerMenu();
-                    break;
+                Console.Clear();
+                Console.WriteLine("1.  Skapa en ny kund");
+                Console.WriteLine("2.  Visa alla kunder");
+                Console.WriteLine("3.  Visa en kund");
+                Console.WriteLine("4.  Ta bort en kund");
+                Console.WriteLine("0.  Avsluta");
+                Console.Write("Välj något av alternativen: ");
+                var option = Console.ReadLine();
 
-                case "2":
-                    ViewAllCustomersMenu();
-                    break;
+                Console.Clear();
 
-                case "3":
-                    ViewOneCustomerMenu();
-                    break;
+                switch (option)
+                {
+                    case "1":
+                        AddCustomerMenu();
+                        break;
 
-                case "4":
-                    RemoveOneCustomerMenu();
-                    break;
+                    case "2":
+                        ViewAllCustomersMenu();
+                        break;
 
-                case "0":
-                    Environment.Exit(0);
-                    break;
+                    case "3":
+                        ViewOneCustomerMenu();
+                        break;
 
+                    case "4":
+                        RemoveOneCustomerMenu();
+                        break;
+
+                    case "0":
+                        Environment.Exit(0);
+                        break;
+
+                }
+
+
+
+                Console.ReadKey();
             }
-
-
-
-            Console.ReadKey();
+            while (true);
         }
-        while (true);
-    }
 
     public static void AddCustomerMenu()
     {
@@ -73,7 +73,7 @@ public class MenuService
         Console.Write("Stad/Ort: ");
         customer.Address.City = Console.ReadLine();
 
-        Task.Run(() => customerService.AddCustomerAsync(customer));
+
     }
     public static void ViewAllCustomersMenu()
     {
