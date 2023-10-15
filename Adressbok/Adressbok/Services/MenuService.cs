@@ -64,7 +64,7 @@ public class MenuService
             while (true);
         }
         catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
-    
+
     }
     public static void AddContactMenu() // menu method for adding contact to list
     {
@@ -95,10 +95,8 @@ public class MenuService
             contact.Address.City = Console.ReadLine();
             Console.WriteLine("");
 
-            contactService.AddContact(contact); // calls AddContact method to add property to list
-            
-            var json = JsonConvert.SerializeObject(contact);
-            FileService.AppendToFile(JsonConvert.SerializeObject(json));
+            contactService.AddContact(contact);
+            FileService.SaveContactsToFile(contactService.GetAllContacts().ToList());
 
             Console.WriteLine("");
             Console.WriteLine("Kontakt tillagd! Klicka valfri knapp för att återgå till huvudmeny.");
@@ -106,18 +104,19 @@ public class MenuService
         catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
 
     }
-    public static void ViewAllContactMenu()
+    public static void ViewAllContactMenu() // menu method for viewing all contacts in list
     {
         try
         {
             Console.WriteLine("Visa alla kontakter.");
-            var contacts = contactService.GetAllContacts();
+            var contacts = contactService.GetAllContacts(); // calls method GetAllContacts to return everything in list
+            // var contacts = FileService.LoadContactsFromFile();
             foreach (var contact in contacts)
             {
                 Console.WriteLine($"Namn: {contact.FullName}");
                 Console.WriteLine($"Email: <{contact.Email}>");
                 Console.WriteLine($"Telefonnummer: {contact.Phone}");
-                Console.WriteLine($"Adress: {contact.Address?.FullAddress}");
+                Console.WriteLine($"Adress: {contact.Address?.FullAddress}"); // shows contact information
             }
 
             Console.WriteLine("");
@@ -190,12 +189,12 @@ public class MenuService
             Console.WriteLine("Ändra en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för att ändra kontakt.");
 
-            Console.Write("E-postadress: "); // Search by email
+            Console.Write("E-postadress: "); // search by email
             var email = Console.ReadLine();
 
-            IContact existingContact = contactService.GetOneContact(email!);
+            IContact existingContact = contactService.GetOneContact(email!); // use the GetOneContact method to get a contact
 
-            if (existingContact != null)
+            if (existingContact != null) // show existing contact if not null
             {
                 Console.WriteLine("Här är den befintliga kontakten:");
                 Console.WriteLine($"Namn: {existingContact.FullName}");
@@ -203,7 +202,7 @@ public class MenuService
                 Console.WriteLine($"Telefonnummer: {existingContact.Phone}");
                 Console.WriteLine($"Adress: {existingContact.Address?.FullAddress}");
 
-                // Now, allow the user to update the contact's information
+                // now allow the user to update the contact's information
                 Console.WriteLine("\nUppdatera kontaktinformation (lämna tomt för att behålla befintlig information):");
                 Console.Write("Förnamn: ");
                 string? newFirstName = Console.ReadLine();

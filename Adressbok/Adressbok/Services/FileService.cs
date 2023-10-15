@@ -1,33 +1,31 @@
-﻿namespace Adressbok.Services;
+﻿using Adressbok.Interfaces;
+using Adressbok.Models;
+using Newtonsoft.Json;
 
-public class FileService
+namespace Adressbok.Services;
+
+public static class FileService
 {
     private static readonly string filePath = @"C:\Skola\C-Sharp\List\contacts.json";
-
-    public static void AppendToFile(string contentAsJson)
+    public static void SaveContactsToFile(List<IContact> contacts)
     {
-        try
-        {
-            using (var sw = new StreamWriter(filePath, true)) // Open the file in append mode
-            {
-                sw.WriteLine(contentAsJson);
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred while appending to the file: {ex.Message}");
-        }
+        var json = JsonConvert.SerializeObject(contacts, Formatting.Indented);
+        File.WriteAllText(filePath, json);
     }
 
-    public static string ReadFromFile()
+    public static List<IContact> LoadContactsFromFile()
     {
         if (File.Exists(filePath))
         {
-            using (var sr = new StreamReader(filePath))
-            {
-                return sr.ReadToEnd();
-            }
+            var json = File.ReadAllText(filePath);
+            return JsonConvert.DeserializeObject<List<IContact>>(json);
         }
-        return null!;
+        else
+        {
+            return new List<IContact>();
+        }
     }
 }
+
+
+

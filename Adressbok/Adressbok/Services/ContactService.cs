@@ -5,16 +5,18 @@ namespace Adressbok.Services;
 public class ContactService : IContactService
 {
     private List<IContact> _contacts = new List<IContact>(); // creates list for contacts
-    
+
     public void AddContact(IContact contact) // method for adding the object "Contact" to list
     {
 
         _contacts.Add(contact); // adds contact to list
     }
 
-    public IEnumerable<IContact> GetAllContacts() // method to show all contacts in list
+    public IEnumerable<IContact> GetAllContacts() // method for getting all contacts in list
     {
-        return _contacts; // returns contacts from list
+        {
+            return _contacts;
+        }
     }
 
     public IContact GetOneContact(string email) // method to find one single contact in list with email
@@ -50,7 +52,7 @@ public class ContactService : IContactService
             // add the updated contact back to the list
             _contacts.Add(existingContact);
         }
-        else //
+        else // if no contact with matching email was found
         {
             Console.WriteLine("Kontakten med angiven e-postadress hittades inte. Ingen ändring utförd.");
         }
