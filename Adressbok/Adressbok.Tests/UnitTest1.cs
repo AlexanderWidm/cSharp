@@ -6,7 +6,7 @@ namespace Adressbok.Tests;
     public class ContactServiceTests
     {
         [Fact]
-        public void AddContact_ContactIsAddedToList()
+        public void AddContact_ContactIsAddedToList() // unit test to test AddContact method
         {
             // Arrange
             var contactService = new ContactService();

@@ -11,8 +11,8 @@ public partial class DetailPage : ContentPage
 	}
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
     {
-        base.OnNavigatedTo(args.);
+        base.OnNavigatedTo(args);
 
-		if(args.TryGetValue())
+		if (args.TryGetValue());
     }
 }

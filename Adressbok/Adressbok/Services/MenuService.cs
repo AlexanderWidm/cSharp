@@ -68,8 +68,6 @@ public class MenuService
     }
     public static void AddContactMenu() // menu method for adding contact to list
     {
-        try
-        {
             Console.WriteLine("Lägg till kontakt.");
             IContact contact = new Contact();
 
@@ -96,18 +94,13 @@ public class MenuService
             Console.WriteLine("");
 
             contactService.AddContact(contact);
-            FileService.SaveContactsToFile(contactService.GetAllContacts().ToList());
+            FileService.SaveContactsToFile(contactService.GetAllContacts().ToList()); // Save contacts to the file
 
-            Console.WriteLine("");
+        Console.WriteLine("");
             Console.WriteLine("Kontakt tillagd! Klicka valfri knapp för att återgå till huvudmeny.");
-        }
-        catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
-
     }
     public static void ViewAllContactMenu() // menu method for viewing all contacts in list
     {
-        try
-        {
             Console.WriteLine("Visa alla kontakter.");
             var contacts = contactService.GetAllContacts(); // calls method GetAllContacts to return everything in list
             // var contacts = FileService.LoadContactsFromFile();
@@ -121,14 +114,9 @@ public class MenuService
 
             Console.WriteLine("");
             Console.WriteLine("Tryck på valfri knapp för att återgå till huvudmenyn.");
-        }
-        catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
     }
     public static void ViewOneContactMenu() // menu method for finding and viewing one contact
     {
-        try
-        {
-
             Console.WriteLine("Hitta en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för att hitta kontakt.");
 
@@ -151,13 +139,9 @@ public class MenuService
 
             Console.WriteLine("");
             Console.WriteLine("Tryck på valfri knapp för att återgå till huvudmenyn.");
-        }
-        catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
     }
     public static void RemoveOneContactMenu()
     {
-        try
-        {
             Console.WriteLine("Ta bort en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för ta bort kontakt.");
 
@@ -179,13 +163,9 @@ public class MenuService
 
             Console.WriteLine("");
             Console.WriteLine("Tryck på valfri knapp för att återgå till huvudmenyn.");
-        }
-        catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
     }
     public static void EditContactMenu()
     {
-        try
-        {
             Console.WriteLine("Ändra en kontakt.");
             Console.WriteLine("Sök på kontakt via e-postadress för att ändra kontakt.");
 
@@ -273,7 +253,5 @@ public class MenuService
 
             Console.WriteLine("");
             Console.WriteLine("Tryck på valfri knapp för att återgå till huvudmenyn.");
-        }
-        catch (Exception ex) { Console.WriteLine($"Ett fel inträffade: {ex.Message}"); }
     }
 }
