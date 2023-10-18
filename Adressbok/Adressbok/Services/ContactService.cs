@@ -26,9 +26,7 @@ public class ContactService : IContactService
     {
         try
         {
-            {
-                return _contacts;
-            }
+                return _contacts;          
         }
         catch (Exception ex) { Debug.WriteLine(ex); }
         
