@@ -18,7 +18,7 @@ namespace Adressbok.Tests;
                 Phone = "0732682790",
                 Address = new Address
                 {
-                    StreetName = "Dragarbrunntsgatan",
+                    StreetName = "Dragarbrunnsgatan",
                     StreetNumber = "58",
                     PostalCode = "75320",
                     City = "UPPSALA"
